@@ -1,1 +1,1 @@
-# ResuMatch-AI
+# ResuMatch
