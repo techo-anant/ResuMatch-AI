@@ -40,6 +40,12 @@ const WipeApp = () => {
 
     return (
         <div className=" bg-[url('/images/bg-auth.svg')] bg-cover min-h-screen min-w-screen">
+            <nav className="resume-nav">
+                <Link to="/" className="back-button">
+                    <img src="/icons/back.svg" alt="logo" className="w-2.5 h-2.5"/>
+                    <span className="text-gray-800 text-sm font-semibold">Back to Homepage</span>
+                </Link>
+            </nav>
             <div className=" flex flex-col items-center justify-start h-screen top-0 pt-10 w-full">
                 <h2 className="text-2xl">Authenticated as: {auth.user?.username}</h2>
                 <div className="text-xl text-gray-600 font-semibold mt-3">Existing files:</div>
